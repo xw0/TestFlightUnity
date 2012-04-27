@@ -1,4 +1,4 @@
 TestFlightUnity
 ===============
 
-a small library to integrate TestFight to any unity project (iOS)
+a small library to integrate the TestFight tool to any Unity 3D (iOS) project 

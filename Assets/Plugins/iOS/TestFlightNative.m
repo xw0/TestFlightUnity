@@ -12,6 +12,9 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 void TestFlight_TakeOff(const char* token)
 {
+    // The following line reports the exact UDID to TestFlight. Uncomment it if you want to see certain tester's activitities. 
+    // However, please make sure this line was excluded before submiting to App Store!
+    // [TestFlight setDeviceIdentifier:[[UIDevice currentDevice] uniqueIdentifier]];
     [TestFlight takeOff:[NSString stringWithUTF8String:token]];
 }
 
